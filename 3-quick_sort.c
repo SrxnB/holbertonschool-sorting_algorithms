@@ -4,8 +4,8 @@
  * swap - swaps two elements
  * @a: first element
  * @b: second element
- *
  */
+
 void swap(int *a, int *b)
 {
 	int tmp = *a;
@@ -13,17 +13,15 @@ void swap(int *a, int *b)
 	*b = tmp;
 }
 
-
-
 /**
  * partition - partitions an array
  * @array: array to be partitioned
  * @low: low index
  * @high: high index
  * @size: size of the array
- *
  * Return: index of the pivot
  */
+
 int partition(int *array, int low, int high, size_t size)
 {
 	int pivot = array[high];
@@ -55,8 +53,9 @@ int partition(int *array, int low, int high, size_t size)
  * @low: low index
  * @high: high index
  * @size: size of the array
- *
+ * Return: Nothing
  */
+
 void quick_sort_rec(int *array, int low, int high, size_t size)
 {
 	int pivot;
@@ -69,15 +68,12 @@ void quick_sort_rec(int *array, int low, int high, size_t size)
 	}
 }
 
-
-
 /**
  * quick_sort - sorts an array
  * @array: array to be sorted
  * @size: size of the array
- *
+ * Retrun: Nothing
  */
-
 
 void quick_sort(int *array, size_t size)
 {
