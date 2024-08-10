@@ -31,4 +31,4 @@ To use our functions you just need to include our header file "sort.h".
 # Authors
 Creators:
 - Ali Mustafazada [Ali](https://github.com/AliiMustafa)
-- Serxan Bagirov [Serxan](https://github.com/SrxnB)
+- Serxan Bagiro [Serxan](https://github.com/SrxnB)
